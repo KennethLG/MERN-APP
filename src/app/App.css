@@ -1,0 +1,376 @@
+body {
+  border: 0px;
+  margin: 0px;
+  font-family:"Bradley Hand ITC", sans-serif;
+  background-color: rgba(0,0,0,1);
+  padding-top: 64px;
+}
+/** {box-sizing: border-box}*/
+
+.navbar {
+  background-color: rgba(20,20,20,0.5);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.linkNav {
+  float: left;
+  color : white;
+  padding: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  transition: 0.5s;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.linkNav:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.con {
+  width: 80%;
+  margin: auto;
+}
+
+.cabeza {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding-top: 16px;
+}
+
+.PTitle {
+  font-size: 100px;
+}
+
+.tabGames {
+  overflow:auto;
+  width: 100%;
+  height: auto;
+}
+
+.cardContain {
+  background-color: rgba(0,0,0,0);
+  margin: auto;
+  width: 70%;
+  height: auto;
+  padding-top: 32px;
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.cardContain:hover {
+  background-color: rgba(30,30,30, 1);
+  transition: 0.5s;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  width: 80%;
+  margin: auto;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 32px;
+  color: rgba(200,200,200,1);
+  width: 80%;
+  margin: auto;
+}
+
+.made {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(200,200,200,1);
+  width: 80%;
+  margin: auto;
+}
+
+.text {
+  text-align: justify;
+  color: rgba(255,255,255,1);
+  width: 80%;
+  margin: auto;
+}
+.text-left {
+  text-align: left;
+}
+
+.boton {
+  border: 0;
+  padding: 16px;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgba(50,50,50,1);
+  color: white;
+}
+
+.botonComment {
+  border: 0;
+  padding: 8px;
+  width: 30%;
+  cursor: pointer;
+  background-color: rgba(50,50,50,1);
+  color: white;
+}
+
+.commentContainer {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(50,50,50, 1);
+  color: rgba(255,255,255,1);
+}
+
+.textComment {
+  font-family: "Tempus Sans ITC", sans-serif;
+}
+
+.Reviews {
+  background-color: rgba(20,20,20,1);
+  width: 80%;
+  margin: auto;
+
+  border-top: solid;
+  border-top-width: 2px;
+  border-top-color: white;
+}
+
+.Body {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.bodyImg {
+  width: 80%;
+}
+
+.bodyText {
+  font-family: Rubik !important;
+  text-align: justify;
+  font-size: 16px;
+  color: white;
+}
+
+.gameImg {
+  width: 80%;
+  margin: auto;
+}
+
+.cardStyle {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: 0.5s;
+}
+
+/* Detalles del juego */
+
+.gameTitle {
+  border-left: solid;
+  border-left-width: 4px;
+}
+
+.gameTitle p {
+  color: white;
+  font-size: 32px;
+  padding-left: 32px;
+}
+
+.gameTitleReviews {
+  border-left: solid;
+  border-left-width: 4px;
+  width: 90%;
+  margin: auto;
+}
+
+.gameTitleReviews p {
+  color: white;
+  font-size: 24px;
+  padding-left: 32px;
+}
+
+
+.gameBody {
+  font-family: Rubik !important;
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.col-1 {
+  width: 50%;
+  float:left;
+  margin: auto;
+}
+
+.col-2 {
+  width: 40%;
+  float:right;
+}
+
+.gameDesc {
+  font-family: "Centaur";
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding-bottom: 64px;
+}
+
+.gameImg {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.gameComment p {
+  font-family: "Centaur";
+  font-size: 16px;
+  color: white;
+}
+
+.gameComment {
+  background-color: rgba(50,50,50,1);
+  padding: 4px;
+}
+
+.gameReviewsContainer {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(20,20,20,1);
+}
+
+.gameCommentUser {
+  font-size: 20px;
+  color: white;
+}
+
+.wc {
+  width: 98.75%;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
+  height: auto;
+  font-family: "Centaur";
+  font-size: 16px;
+  background-color: rgba(70,70,70,1);
+  color: white;
+}
+
+.typeComment {
+  width: 90%;
+  background-color: rgba(20,20,20,1);
+  margin: auto;
+}
+
+.commentForm {
+  width: 100%;
+  margin: auto;
+}
+
+.commentButton {
+  background-color: rgba(200,200,200,1);
+  border:solid;
+  border-color: rgba(255,255,255,1);
+  border-radius: 3px;
+  outline: none;
+  padding: 12px;
+  color: rgba(30,30,30,1);
+  width: 100%;
+}
+
+.checked {
+  color: orange;
+}
+
+.black {
+  color: black;
+}
+
+.fa {
+  padding : 4px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardStyle {
+    width: 100%;
+  }
+  .col-1 {
+    width: 100%;
+    float: none;
+  }
+  .col-2 {
+    width: 100%;
+    float:none;
+    margin: auto;
+  }
+
+  .gameBody {
+    width: 95%;
+  }
+
+  .Body {
+    width: 95%;
+  }
+
+  .cardContain {
+    width: 90%;
+  }
+  .PTitle {
+    font-size: 50px;
+  }
+}
+
+/* Contacto */
+
+.emailText {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: solid;
+  border-color: rgba(255,255,255,1);
+  box-shadow: 0px 2px 10px 1px rgba(255,255,255,1);
+  outline: none;
+  resize: none;
+  height: auto;
+  font-family: "Centaur";
+  font-size: 16px;
+  background-color: rgba(10,10,10,1);
+  color: white;
+  border-radius: 5px;
+}
+
+.emailSend {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: rgba(220,220,220,1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.emailSend:hover {
+  color: rgba(0,255,255,1);
+  transition: 1s;
+}
